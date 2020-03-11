@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/18BDjbsztgLtbePU1GuNR1iGoGjt1Hkeg/view?usp=sharing'
+export_file_url = 'https://drive.google.com/open?id=18BDjbsztgLtbePU1GuNR1iGoGjt1Hkeg'
 export_file_name = 'Fastai_trained.pkl'
 
 classes = ['!','(',')','+',',','-','0','1','2','3','4','5','6','7','8','9','=','A','C','Delta','G','H','M','N','R','S','T','X','[',']','alpha','ascii_124','b','beta','cos','d','div','e','exists','f','forall','forward_slash','gamma','geq','gt','i','in','infty','int','j','k','l','lambda','ldots','leq','lim','log','lt','mu','neq','o','p','phi','pi','pm','prime','q','rightarrow','sigma','sin','sqrt','sum','tan','theta','times','u','v','w','y','z','{','}']
